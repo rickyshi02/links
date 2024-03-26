@@ -1,57 +1,98 @@
+<!DOCTYPE html>
 <html>
   <head>
-  </head>head
+    <title>My link in bio</title>
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      
+      body {
+      background-color: #004643;
+      }
+
+      .name {
+        color: #fffffe;
+      }
+
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+      }
+
+      .link {
+        background-color: #f9bc60;
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+      }
+    </style>
+  </head>
   <body>
-    <div class="banner">
-      <img src="profile-pic.jpg" alt="Raghu Betina headshot">
+    <div class="items">
+      <div class="banner">
+        <img src="profile-pic.jpg" alt="Ricky Shi Profile Pic" class="banner-image">
+      </div>
+  
+      <div class="name">
+        Ricky Shi
+      </div>
+  
+      <div class="social-icons">
+        <a href="https://github.com/rickyshi02" target="_blank">
+          GitHub
+        </a>
+  
+        <a href="https://www.linkedin.com/in/ricky-shi/" target="_blank">
+          LinkedIn
+        </a>
+  
+        <a href="https://www.instagram.com/rickywshi/" target="_blank">
+          Instagram
+        </a>
+  
+        <a href="https://twitter.com/rickstershi" target="_blank">
+          Twitter
+        </a>
+      </div>
+  
+      <div class="link">
+        <img
+          src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Students stock photo" class="thumbnail">
+  
+        <a target="_blank" href="https://hksa.uchicago.edu/">Hong Kong Students Association - Website</a>
+      </div>
+  
+      <div class="link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/University_of_Chicago_Coat_of_arms.png/944px-University_of_Chicago_Coat_of_arms.png" alt="University of Chicago crest" class="thumbnail">
+  
+        <a target="_blank"
+          href="https://www.uchicago.edu/en">University of Chicago</a>
+      </div>
     </div>
-
-    <div class="name">
-      Raghu Betina
-    </div>
-
-    <div class="social-icons">
-      <a href="https://github.com/raghubetina" target="_blank">
-        GitHub
-      </a>
-
-      <a href="https://www.linkedin.com/in/raghubetina/" target="_blank">
-        LinkedIn
-      </a>
-
-      <a href="https://www.instagram.com/raghubetina/" target="_blank">
-        Instagram
-      </a>
-
-      <a href="https://twitter.com/raghubetina" target="_blank">
-        Twitter
-      </a>
-    </div>
-
-    <div class="link">
-      <img
-        src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png">
-
-      <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
-        — Paul Graham</a>
-    </div>
-
-    <div class="link">
-      <img src="/thumbnails/typography.jpg">
-
-      <a target="_blank"
-        href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
-        Butterick</a>
-    </div>
-
-    <div class="link">
-      <img
-        src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg">
-
-      <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
-        Life-Saving Checklist — The New Yorker</a>
-    </div>
-
-    <!-- Etc, for as many links as you want -->
+   
   </body>
 </html>
